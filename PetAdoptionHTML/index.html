@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Animal Adoption</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="added-items">
+            <h1 id="like"></h1>
+            <div id="cat"></div>
+            <div id="dog"></div>
+            <div id="snake"></div>
+            <div id="fish"></div>
+            <div id="chameleon"></div>
+            <div id="mice"></div>
+            <div id="axolotl"></div>
+            <div id="goat"></div>
+            <div id="monkey"></div>
+            <div id="duck"></div>
+        </div>
+        <div style="display: flex;">
+            <div class="swiper mySwiper">
+                <h2 class="anipic">Pets</h2>
+                <div class="swiper-wrapper">
+
+                    <!-- Cat -->
+                    <div class="swiper-slide">
+                        <div class="card-image cat"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Mirka,</h2>
+                                <span>6 months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i>
+                                <button onclick="insertCat()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dog -->
+                    <div class="swiper-slide">
+                        <div class="card-image dog"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Simon,</h2>
+                                <span>6 Months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i>
+                                <button onclick="insertDog()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Snake -->
+                    <div class="swiper-slide">
+                        <div class="card-image snake"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Sir Boopsalot</h2>
+                                <span>7 Months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i>
+                                <button onclick="insertSnake()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fish -->
+                    <div class="swiper-slide">
+                        <div class="card-image fish"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Felix,</h2>
+                                <span>5 months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i>
+                                <button onclick="insertFish()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Chameleon -->
+                    <div class="swiper-slide">
+                        <div class="card-image chameleon"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Gordo,</h2>
+                                <span>4 Months</span>
+                            </div>
+                            <div class="card-content"> 
+                                <i class="fas fa-times swiper-button-next"></i> 
+                                <button onclick="insertChameleon()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mouse -->
+                    <div class="swiper-slide">
+                        <div class="card-image mice"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Timmy,</h2>
+                                <span>5 Months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i>
+                                <button onclick="insertMice()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Axolotl -->
+                    <div class="swiper-slide">
+                        <div class="card-image axolotl"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Dizzi,</h2>
+                                <span>2 Months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i> 
+                                <button onclick="insertAxolotl()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Goat -->
+                    <div class="swiper-slide">
+                        <div class="card-image goat"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Jack,</h2>
+                                <span>4 Months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i>
+                                <button onclick="insertGoat()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Monkey -->
+                    <div class="swiper-slide">
+                        <div class="card-image monkey"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Abu,</h2>
+                                <span>2 Months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i>
+                                <button onclick="insertMonkey()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- duck -->
+                    <div class="swiper-slide">
+                        <div class="card-image duck"></div>
+                        <div class="grid">
+                            <div class="name">
+                                <h2>Dolly,</h2>
+                                <span>10 Months</span>
+                            </div>
+                            <div class="card-content">
+                                <i class="fas fa-times swiper-button-next"></i>
+                                <button onclick="insertDuck()"><i class=" fas fa-heart swiper-button-next"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: 'cards',
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

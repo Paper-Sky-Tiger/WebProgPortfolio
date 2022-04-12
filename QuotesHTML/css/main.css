@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.max-height {
+  min-height: 100vh;
+}
+body {
+  background-color: rgb(236, 188, 183);
+  background-image: url('../img/lake.jpg');
+}
+.quote-container {
+  background: rgba(111, 240, 233, 0.623);
+}
+#quoteButton {
+  color: white;
+  background: #64b6ac;
+  border-color: #64b6ac;
+  cursor: pointer;
+  font-size: 10.5px;
+  padding: 10px 20px;
+  border-radius: 12px
+}
+#quoteButton:hover {
+  background: #b09e99;
+  border-color: #b09e99;
+  color: #333333;
+}
+ #quoteDisplay{
+   text-align: center;
+   color: rgb(68, 40, 15);
+   font-family: 'Courgette', cursive;
+ }
+
+ h3{
+   text-align: center;
+ }

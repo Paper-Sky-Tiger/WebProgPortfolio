@@ -1,0 +1,77 @@
+html{
+    background-image: linear-gradient(to right, rgba(0, 255, 179, 0), rgb(0, 255, 157));
+}
+
+body{
+    text-align: justify;
+}
+
+h1{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight:inherit;
+    line-height: 56px;
+    margin-left: 330px;
+    margin-right: 330px;
+    color: slateblue;
+    text-align: center;
+}
+
+h2{
+    letter-spacing: 0;
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 330px;
+    margin-right: 330px;
+    color:lightsalmon;
+    text-align: center;
+}
+
+h3{
+    color:#9a9a9a;
+    font-style:normal;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: 300;
+    margin-left: 345px;
+    margin-right: 345px;
+    text-align: center;
+}
+
+p{
+    font-size: 21px;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-style: normal;
+    
+}
+
+.me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.me2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.hobbies{
+    margin: 10px 10px 10px 10px;
+}

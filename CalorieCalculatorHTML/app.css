@@ -1,0 +1,10 @@
+.bg-dark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 970px;
+    background-image: url("./img/fitness.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
